@@ -1,0 +1,59 @@
+# /galerie-php .gitignore — règles essentielles
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs_vista.db
+
+# IDE / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP / Composer
+/vendor/
+/composer.phar
+# Keep composer.lock committed for apps; do not ignore it by default
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env.backup
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / distribution
+/dist/
+/build/
+/public/build/
+/public/hot
+
+# Caches, logs, temp
+*.log
+logs/
+cache/
+tmp/
+*.cache
+.sass-cache/
+
+# Test coverage and reports
+coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# Misc
+*.bak
+*.swp
+*.tmp
+
+# Ignore OS-specific thumbs and thumbnails
+Thumbs.db
+
+# End of file
