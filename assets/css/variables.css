@@ -1,0 +1,44 @@
+/* Variables couleurs pour le site — fichier généré par Copilot */
+:root {
+  /* Palette principale */
+  --color-primary: #0b5cff;
+  --color-primary-600: #0849d6;
+  --color-primary-800: #053299;
+
+  /* Secondaire / accent */
+  --color-secondary: #ff6f61;
+  --color-accent: #ffd54f;
+
+  /* Neutres (fonds, surfaces, bordures, textes) */
+  --color-bg: #ffffff;
+  --color-surface: #f7f8fa;
+  --color-muted: #9ca3af;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-border: #e5e7eb;
+
+  /* Feedback */
+  --color-success: #2e7d32;
+  --color-warning: #f57c00;
+  --color-danger: #d32f2f;
+  --color-info: #0288d1;
+
+  /* Interactions */
+  --color-focus: #2563eb;
+  --color-shadow: rgba(2, 6, 23, 0.08);
+
+  /* Overlay / modals */
+  --overlay-50: rgba(0, 0, 0, 0.5);
+  --overlay-70: rgba(0, 0, 0, 0.7);
+
+  /* Misc */
+  --glass-1: rgba(255, 255, 255, 0.6);
+  --glass-2: rgba(255, 255, 255, 0.2);
+}
+
+/* Exemples d'utilisation :
+	 background: var(--color-bg);
+	 color: var(--color-text-primary);
+	 border-color: var(--color-border);
+	 box-shadow: 0 4px 12px var(--color-shadow);
+*/

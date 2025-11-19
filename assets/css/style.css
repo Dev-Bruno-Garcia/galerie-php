@@ -1,0 +1,13 @@
+/* Importation des variables (option via html)
+/* Exemple d'utilisation des variables */
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+}
+
+h1 {
+  color: var(--color-primary);
+}
